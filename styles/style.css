@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /*mobile*/
@@ -59,8 +60,10 @@
     padding: 20px;
     margin-left: 30px;
   }
-  .link {
+  .menu {
     margin-right: 30px;
+  }
+  .link {
     padding: 10px;
   }
   .texto {
