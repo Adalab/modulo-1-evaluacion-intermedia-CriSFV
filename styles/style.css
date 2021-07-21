@@ -1,11 +1,34 @@
-/*font-family: 'Rubik', sans-serif;
-#4a4a4a (Texto del menú)
-#3CDBC0 (Color de fondo de la página)
-#FFFFFF (Color de texto de "Creando diversidad digital")*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /*mobile*/
+:root {
+  --font-family: "Rubik", sans-serif;
+  --menu-color: #4a4a4a;
+  --background-color: #3cdbc0;
+  --texto-color: #ffffff;
+}
+
+.header {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.logo {
+  width: 155px;
+  padding: 10px;
+}
+.link {
+  font-family: var(--font-family);
+  color: var(--menu-color);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
