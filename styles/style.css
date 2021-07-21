@@ -18,10 +18,12 @@
   top: 0;
   left: 0;
   right: 0;
+  position: fixed;
+  background-color: var(--texto-color);
 }
 .logo {
   width: 155px;
-  margin: 10px;
+  padding: 5px;
 }
 .link {
   font-family: var(--font-family);
@@ -29,7 +31,7 @@
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 5px;
 }
 .principal {
   font-family: var(--font-family);
@@ -52,10 +54,15 @@
   .header {
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 30px;
+  }
+  .logo {
+    padding: 20px;
     margin-left: 30px;
   }
-
+  .link {
+    margin-right: 30px;
+    padding: 10px;
+  }
   .texto {
     font-size: 40px;
   }
