@@ -2,3 +2,10 @@
 #4a4a4a (Texto del menú)
 #3CDBC0 (Color de fondo de la página)
 #FFFFFF (Color de texto de "Creando diversidad digital")*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*mobile*/
