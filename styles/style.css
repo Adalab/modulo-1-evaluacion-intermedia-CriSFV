@@ -24,7 +24,15 @@
 }
 .logo {
   width: 155px;
-  padding: 5px;
+  margin-top: 20px;
+}
+.menu {
+  display: flex;
+  margin-bottom: 13px;
+}
+.line {
+  list-style-type: none;
+  padding: 10px;
 }
 .link {
   font-family: var(--font-family);
