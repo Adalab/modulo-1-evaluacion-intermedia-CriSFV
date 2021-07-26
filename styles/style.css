@@ -55,8 +55,10 @@
 }
 .text {
   color: var(--texto-color);
-
+  font-size: 30px;
+  width: 10ch;
   text-transform: capitalize;
+  text-align: center;
 }
 
 /*versión tablet y desktop*/
