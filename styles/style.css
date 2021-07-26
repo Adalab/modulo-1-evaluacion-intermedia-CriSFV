@@ -53,9 +53,10 @@
   align-items: center;
   margin-top: 13px;
 }
-.texto {
+.text {
   color: var(--texto-color);
-  font-size: 30px;
+
+  text-transform: capitalize;
 }
 
 /*versión tablet y desktop*/
@@ -65,7 +66,7 @@
     justify-content: space-between;
   }
   .logo {
-    padding: 20px;
+    margin-bottom: 20px;
     margin-left: 30px;
   }
   .menu {
@@ -74,7 +75,7 @@
   .link {
     padding: 10px;
   }
-  .texto {
+  .text {
     font-size: 40px;
   }
 }
